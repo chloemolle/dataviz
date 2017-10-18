@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cereals Killer</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="data/cereals.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <h1> KILLER CEREAL </h1>
+    </header>
+    <span class = "conteneur">
+      <section id = "info">
+      </section>
+      <div id = "pyramid"></div>
+      <section id = "criteres">
+        <br>
+        Veuillez classer vos critères
+        <span>
+          1
+          <div class = "dropper1">
+            <div class="red">
+              <div class="orange">
+                <div class="green">
+                  <input class = "slider" type="range" min = 1 max = 100 step = 1 value = "50" >
+                </div>
+              </div>
+            </div>
+          </div>
+        </span>
+        <span>
+          2
+          <div class = "dropper2">
+            <div class="red">
+              <div class="orange">
+                <div class="green">
+                  <input class = "slider" type="range" min = 1 max = 100 step = 1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </span>
+        <span>
+          3
+          <div class = "dropper3">
+            <div class="red">
+              <div class="orange">
+                <div class="green">
+                  <input class = "slider" type="range" min = 1 max = 100 step = 1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </span>
+        <span>
+          4
+          <div class = "dropper4">
+            <div class="red">
+              <div class="orange">
+                <div class="green">
+                  <input class = "slider" type="range" min = 1 max = 100 step = 1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </span>
+        <p id= "separation">
+          --------------------------------
+        </p>
+        <span> Critères disponibles </span>
+        <div class = dropper5>
+        <div class = "draggable" draggable = "true">
+          <label class = "id"> Sucre
+          </label>
+        </div>
+        <div  class = "draggable" draggable = "true">
+          <label class = "id"> Sel
+          </label>
+        </div>
+        <div  class = "draggable" draggable = "true">
+          <label class = "id"> Graisse
+          </label>
+        </div>
+        <div class = "draggable"  draggable = "true">
+          <label class = "id"> Calories
+          </label>
+        </div>
+        <div class = "draggable"  draggable = "true">
+          <label class = "id"> Glucides
+          </label>
+        </div>
+        <div class = "draggable"  draggable = "true">
+          <label class = "id"> Protéines
+          </label>
+        </div>
+        <div class = "draggable"  draggable = "true">
+          <label class = "id"> Fibres
+          </label>
+        </div>
+        <div class = "draggable"  draggable = "true">
+          <label class = "id"> Potassium
+          </label>
+        </div>
+        <div class = "draggable"  draggable = "true">
+          <label class = "id"> Vitamines
+          </label>
+        </div>
+    </span>
+    </section>
+  </body>
+  <script src="js/pyramid.js"></script>
+  <script src="js/criteres.js"></script>
+  <script src="js/score.js"></script>
+</html>
